@@ -1,1 +1,1 @@
-# Async-race
+A tutorial project to understand how to interact with API
