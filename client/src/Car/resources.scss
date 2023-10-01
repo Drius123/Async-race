@@ -1,0 +1,77 @@
+.car-container{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  row-gap: 5px;
+  border-bottom: dotted white;
+  border-top: solid black;
+  .car-nav {
+    display: flex;
+    column-gap: 10px;
+    padding-top: 5px;
+    .btn-select,
+    .btn-remove{
+      font-family: 'Belanosima', sans-serif;
+      color: white;
+      font-size: 16px;
+      width: 70px;
+      height: 30px;
+      background-color: black;
+      border-radius: 5px;
+    }
+    .car-name{
+      font-family: 'Belanosima', sans-serif;
+      font-size: 20px;
+      padding-top: 5px;
+    }
+  }
+  .div-engine{
+    display: flex;
+    column-gap: 5px;
+    padding-top: 10px;
+    .btn-a,
+    .btn-b{
+      font-family: 'Belanosima', sans-serif;
+      color: black;
+      font-size: 16px;
+      width: 20px;
+      height: 30px;
+      background-color: rgb(255, 255, 255, 0.7);
+      border-radius: 5px;
+    }
+    .btn-a.active,
+    .btn-b.active{
+      background-color: green;
+    }
+  }
+  .car-img{
+    display: block;
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 15px;
+  }
+  .car-svg{
+    fill: blue;
+  }
+  .animation{
+    animation-name: transform;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+  .animation-paused{
+    animation-play-state: paused;
+  }
+  .finish-flag{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 90px;
+    right: 10%;
+  }
+  @keyframes transform {
+    from {transform: translate(0%)}
+    to {transform: translate(90%)}
+  }
+}

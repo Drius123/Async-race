@@ -1,0 +1,38 @@
+.section-garage{
+  padding: 10px;
+  min-height: 60vh;
+  .car-numbers{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 32px;
+  }
+  .page-number{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
+  }
+  .page-changer{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .btn-prev,
+    .btn-next{
+      font-family: 'Belanosima', sans-serif;
+      color: white;
+      font-size: 16px;
+      width: 70px;
+      height: 30px;
+      background-color: green;
+      border-radius: 5px;
+    }
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
+.hidden{
+  display: none;
+}

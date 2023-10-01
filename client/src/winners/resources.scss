@@ -1,0 +1,33 @@
+.section-winner{
+  padding: 20px;
+  min-height: 80vh;
+  .winner-numbers{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 32px;
+  }
+  .winner-page{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
+  }
+  .container-table{
+    display: block;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    .container-cap{
+      font-family: 'Belanosima', sans-serif;
+      font-size: 17px;
+      background-color: aqua;
+    }
+    .winner-number{
+      width: 10%;
+    }
+    .winner-car{
+      width: 5%;
+    }
+  }
+}
+
+.hidden{
+  display: hidden;
+}
